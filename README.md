@@ -14,6 +14,7 @@ This repository contains tools and scripts for testing and querying the Unraid G
 
 1. Clone or download this repository
 2. Install required dependencies:
+
 ```bash
 pip install -r requirements.txt
 ```
@@ -25,6 +26,7 @@ pip install -r requirements.txt
 The Python client (`unraid_api_client.py`) provides a comprehensive interface for working with the Unraid GraphQL API.
 
 **Basic usage:**
+
 ```bash
 # Query basic server information
 python3 unraid_api_client.py --ip 192.168.20.21 --key YOUR_API_KEY
@@ -37,6 +39,7 @@ python3 unraid_api_client.py --ip 192.168.20.21 --key YOUR_API_KEY --query all
 ```
 
 **Available query types:**
+
 - `info`: Basic server information
 - `versions`: Version information for OS, kernel, etc.
 - `array`: Array status overview
@@ -55,6 +58,7 @@ python3 unraid_api_client.py --ip 192.168.20.21 --key YOUR_API_KEY --query all
 - `all`: Run all queries
 
 **Additional options:**
+
 - `--https`: Use HTTPS instead of HTTP
 - `--direct`: Skip redirect detection and connect directly to the IP
 - `--custom "query { ... }"`: Run a custom GraphQL query
@@ -63,6 +67,7 @@ python3 unraid_api_client.py --ip 192.168.20.21 --key YOUR_API_KEY --query all
 ### Shell Script
 
 The shell script (`test_api_curl.sh`) provides a simpler alternative using curl:
+
 ```bash
 # Query basic server information
 ./test_api_curl.sh --ip 192.168.20.21 --key YOUR_API_KEY
