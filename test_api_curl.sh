@@ -1,5 +1,5 @@
 #!/bin/bash
-# Enhanced curl-based script to test the Unraid GraphQL API
+# Curl-based script to test the Unraid GraphQL API
 
 # Configuration (default values)
 SERVER_IP="192.168.20.21"
