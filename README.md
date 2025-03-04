@@ -29,13 +29,13 @@ The Python client (`unraid_api_client.py`) provides a comprehensive interface fo
 
 ```bash
 # Query basic server information
-python3 unraid_api_client.py --ip 192.168.20.21 --key YOUR_API_KEY
+python3 unraid_api_client.py --ip 192.168.1.100 --key YOUR_API_KEY
 
 # Query array status
-python3 unraid_api_client.py --ip 192.168.20.21 --key YOUR_API_KEY --query array
+python3 unraid_api_client.py --ip 192.168.1.100 --key YOUR_API_KEY --query array
 
 # Run multiple queries
-python3 unraid_api_client.py --ip 192.168.20.21 --key YOUR_API_KEY --query all
+python3 unraid_api_client.py --ip 192.168.1.100 --key YOUR_API_KEY --query all
 ```
 
 **Available query types:**
@@ -70,13 +70,13 @@ The shell script (`test_api_curl.sh`) provides a simpler alternative using curl:
 
 ```bash
 # Query basic server information
-./test_api_curl.sh --ip 192.168.20.21 --key YOUR_API_KEY
+./test_api_curl.sh --ip 192.168.1.100 --key YOUR_API_KEY
 
 # Query docker containers
-./test_api_curl.sh --ip 192.168.20.21 --key YOUR_API_KEY --type docker
+./test_api_curl.sh --ip 192.168.1.100 --key YOUR_API_KEY --type docker
 
 # Use HTTPS
-./test_api_curl.sh --ip 192.168.20.21 --key YOUR_API_KEY --https --type network
+./test_api_curl.sh --ip 192.168.1.100 --key YOUR_API_KEY --https --type network
 ```
 
 ## Using the Unraid API
