@@ -2,8 +2,8 @@
 # Curl-based script to test the Unraid GraphQL API
 
 # Configuration (default values)
-SERVER_IP="192.168.20.21"
-API_KEY="d19cc212ffe54c88397398237f87791e75e8161e9d78c41509910ceb8f07e688"
+SERVER_IP="192.168.1.100"
+API_KEY=""
 QUERY_TYPE="info"
 DIRECT_IP=false
 
