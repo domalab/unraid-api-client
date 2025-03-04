@@ -21,8 +21,8 @@ show_help() {
     echo ""
     echo "Examples:"
     echo "  $0 --type info"
-    echo "  $0 --ip 192.168.1.10 --type docker"
-    echo "  $0 --ip 192.168.1.10 --direct"
+    echo "  $0 --ip 192.168.1.100 --type docker"
+    echo "  $0 --ip 192.168.1.100 --direct"
 }
 
 # Parse command line arguments
